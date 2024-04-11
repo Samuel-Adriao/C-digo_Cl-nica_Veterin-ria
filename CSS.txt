@@ -1,0 +1,191 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+  	font-variation-settings:
+    "wdth" 100;
+}
+
+.clear{
+	clear: both;
+}
+
+html,body{
+	height: 100%;
+}
+
+.header > div {
+    display: inline-block;
+    margin: 20px 0;
+    vertical-align: top;
+}
+
+.numero {
+    vertical-align: middle;
+    font-weight: bold;
+	color: #ffc400;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.sup{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #ffc400;
+}
+
+.contato{
+	vertical-align: middle;
+}
+
+header .logo img{
+	width: 120px;
+    height: 120px;
+    vertical-align: middle;
+    margin-right: 120px;
+    margin-left: 500px;
+}
+
+header .contato img{
+	width: 90px;
+    height: 90px;
+    vertical-align: middle;
+}
+
+header .suporte img{
+	width: 90px;
+    height: 90px;
+    vertical-align: middle;
+}
+
+.info {
+	display: inline-block; 
+    vertical-align: middle;
+    margin-right: 120px;
+}
+
+.login{
+	float: right;
+}
+
+.login input{
+margin-top: 30px;
+margin-right: 150px;
+margin-left: 0;
+border-radius: 5px;
+padding: 10px 10px 10px 10px;
+background-color: #ffc400;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+cursor: pointer; 
+}
+
+.login input[type="button"]:hover {
+	background-color: #c77100;
+	transition: 0.3s;
+}
+/*
+.background-image{
+	position: relative;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+
+/*
+.overlay-text {
+    position: absolute;
+    top: 50%;            
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;  
+    text-transform: uppercase;
+}
+*/
+
+h1{
+	 font-family: "Open Sans", sans-serif;
+	 font-size: 300%;
+	 text-shadow: 0px 0px 10px rgba(0,0,0,1);
+	 font-weight: bold;
+}
+
+/*
+.texto{
+	text-shadow: 0px 0px 10px rgba(0,0,0,1);
+	font-family: "Open Sans", sans-serif;
+	font-size: 120%;
+}
+*/
+
+/*
+.botao button {
+    margin-top: 10%;
+    width: 600px;
+    height: 80px;
+    padding: 0 20px;
+    font-size: 16px; 
+    background-color: #2ae605; 
+    border: none; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    box-shadow: 0px 0px 10px rgba(0,0,0,1);
+}
+
+div button h1{
+	color: white;
+}
+
+.botao button :hover {
+   	transition: 0.3s;
+    background-color: #168200;
+    border-radius: 3px;
+}
+*/
+
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide:first-child {
+  left: 0;
+  opacity: 1;
+}
+
+.texto {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.slide img {
+  width: 100%;
+  height: 301px; 
+}
+
+.slide {
+  border: 2px solid red; 
+}
+
+
